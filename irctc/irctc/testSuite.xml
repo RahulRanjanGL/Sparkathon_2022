@@ -1,0 +1,9 @@
+<suite name="IRCTCTests">
+	<test name="irctcMavenTest">
+		<classes>
+			<class name="com.cts.irctc.seleniumtestcases.IrctcFormTests"/>
+			<class name="com.cts.irctc.servicetestcases.IrctcServiceTests"/>
+			<class name="com.cts.irctc.controllertestcases.IrctcControllerTests"/>
+		</classes>
+	</test>
+</suite>

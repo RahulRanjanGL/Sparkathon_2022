@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\abc\AppData\Local\Temp\testng-eclipse--1960951394\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testFormPresentActionValueMethodName">testFormPresentActionValueMethodName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testFromCity">testFromCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testFromCityPresentsTagNameType">testFromCityPresentsTagNameType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testNoOfTicketsPresentsTagNameType">testNoOfTicketsPresentsTagNameType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testNoOfTicketsWrong1">testNoOfTicketsWrong1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testNoOfTicketsWrong2">testNoOfTicketsWrong2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testSubmitActionForSameFromAndToCity">testSubmitActionForSameFromAndToCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testSubmitActionWithTicketBookingResult">testSubmitActionWithTicketBookingResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testSubmitActionWithTrainNotFound1">testSubmitActionWithTrainNotFound1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testSubmitActionWithTrainNotFound2">testSubmitActionWithTrainNotFound2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testToCity">testToCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testToCityPresentsTagNameType">testToCityPresentsTagNameType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testTravelClass">testTravelClass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testTravelClassPresentsTagNameType">testTravelClassPresentsTagNameType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testcustomerNameEmpty">testcustomerNameEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testcustomerNamePresentsTagNameType">testcustomerNamePresentsTagNameType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testheadingPresent">testheadingPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testmobileNumberPresentsTagNameType">testmobileNumberPresentsTagNameType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testmobileNumberWrong">testmobileNumberWrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testmobileNumberWrong1">testmobileNumberWrong1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cts.irctc.seleniumtestcases.IrctcFormTests" hash-for-method="testsubmitPresentsTagNameType">testsubmitPresentsTagNameType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cts.irctc.seleniumtestcases.IrctcFormTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFormPresentActionValueMethodName">
+                  </a> <!-- testFormPresentActionValueMethodName -->
+                  <span class="method-name">testFormPresentActionValueMethodName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFromCity">
+                  </a> <!-- testFromCity -->
+                  <span class="method-name">testFromCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFromCityPresentsTagNameType">
+                  </a> <!-- testFromCityPresentsTagNameType -->
+                  <span class="method-name">testFromCityPresentsTagNameType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoOfTicketsPresentsTagNameType">
+                  </a> <!-- testNoOfTicketsPresentsTagNameType -->
+                  <span class="method-name">testNoOfTicketsPresentsTagNameType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoOfTicketsWrong1">
+                  </a> <!-- testNoOfTicketsWrong1 -->
+                  <span class="method-name">testNoOfTicketsWrong1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoOfTicketsWrong2">
+                  </a> <!-- testNoOfTicketsWrong2 -->
+                  <span class="method-name">testNoOfTicketsWrong2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitActionForSameFromAndToCity">
+                  </a> <!-- testSubmitActionForSameFromAndToCity -->
+                  <span class="method-name">testSubmitActionForSameFromAndToCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitActionWithTicketBookingResult">
+                  </a> <!-- testSubmitActionWithTicketBookingResult -->
+                  <span class="method-name">testSubmitActionWithTicketBookingResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitActionWithTrainNotFound1">
+                  </a> <!-- testSubmitActionWithTrainNotFound1 -->
+                  <span class="method-name">testSubmitActionWithTrainNotFound1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitActionWithTrainNotFound2">
+                  </a> <!-- testSubmitActionWithTrainNotFound2 -->
+                  <span class="method-name">testSubmitActionWithTrainNotFound2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToCity">
+                  </a> <!-- testToCity -->
+                  <span class="method-name">testToCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToCityPresentsTagNameType">
+                  </a> <!-- testToCityPresentsTagNameType -->
+                  <span class="method-name">testToCityPresentsTagNameType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTravelClass">
+                  </a> <!-- testTravelClass -->
+                  <span class="method-name">testTravelClass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTravelClassPresentsTagNameType">
+                  </a> <!-- testTravelClassPresentsTagNameType -->
+                  <span class="method-name">testTravelClassPresentsTagNameType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcustomerNameEmpty">
+                  </a> <!-- testcustomerNameEmpty -->
+                  <span class="method-name">testcustomerNameEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcustomerNamePresentsTagNameType">
+                  </a> <!-- testcustomerNamePresentsTagNameType -->
+                  <span class="method-name">testcustomerNamePresentsTagNameType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testheadingPresent">
+                  </a> <!-- testheadingPresent -->
+                  <span class="method-name">testheadingPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testmobileNumberPresentsTagNameType">
+                  </a> <!-- testmobileNumberPresentsTagNameType -->
+                  <span class="method-name">testmobileNumberPresentsTagNameType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testmobileNumberWrong">
+                  </a> <!-- testmobileNumberWrong -->
+                  <span class="method-name">testmobileNumberWrong</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testmobileNumberWrong1">
+                  </a> <!-- testmobileNumberWrong1 -->
+                  <span class="method-name">testmobileNumberWrong1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testsubmitPresentsTagNameType">
+                  </a> <!-- testsubmitPresentsTagNameType -->
+                  <span class="method-name">testsubmitPresentsTagNameType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\abc\AppData\Local\Temp\testng-eclipse--1960951394\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cts.irctc.seleniumtestcases.IrctcFormTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSubmitActionWithTicketBookingResult')
+data.setCell(0, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(0, 3, 630);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNoOfTicketsWrong2')
+data.setCell(1, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(1, 3, 449);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSubmitActionForSameFromAndToCity')
+data.setCell(2, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(2, 3, 425);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSubmitActionWithTrainNotFound2')
+data.setCell(3, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(3, 3, 344);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSubmitActionWithTrainNotFound1')
+data.setCell(4, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(4, 3, 310);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testNoOfTicketsWrong1')
+data.setCell(5, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(5, 3, 217);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testcustomerNameEmpty')
+data.setCell(6, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(6, 3, 128);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testmobileNumberWrong')
+data.setCell(7, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(7, 3, 118);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testmobileNumberWrong1')
+data.setCell(8, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(8, 3, 111);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testheadingPresent')
+data.setCell(9, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(9, 3, 80);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testFromCity')
+data.setCell(10, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(10, 3, 64);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testTravelClass')
+data.setCell(11, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(11, 3, 55);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testToCity')
+data.setCell(12, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(12, 3, 53);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testcustomerNamePresentsTagNameType')
+data.setCell(13, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(13, 3, 50);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testmobileNumberPresentsTagNameType')
+data.setCell(14, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(14, 3, 36);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testsubmitPresentsTagNameType')
+data.setCell(15, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(15, 3, 28);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testFormPresentActionValueMethodName')
+data.setCell(16, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(16, 3, 24);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testFromCityPresentsTagNameType')
+data.setCell(17, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(17, 3, 18);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testToCityPresentsTagNameType')
+data.setCell(18, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(18, 3, 11);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testNoOfTicketsPresentsTagNameType')
+data.setCell(19, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(19, 3, 10);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testTravelClassPresentsTagNameType')
+data.setCell(20, 2, 'com.cts.irctc.seleniumtestcases.IrctcFormTests')
+data.setCell(20, 3, 9);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cts.irctc.seleniumtestcases.IrctcFormTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testheadingPresent</span>
+                <span class="method-start">7597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcustomerNamePresentsTagNameType</span>
+                <span class="method-start">7684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testmobileNumberPresentsTagNameType</span>
+                <span class="method-start">7740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFromCityPresentsTagNameType</span>
+                <span class="method-start">7777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToCityPresentsTagNameType</span>
+                <span class="method-start">7797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTravelClassPresentsTagNameType</span>
+                <span class="method-start">7809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNoOfTicketsPresentsTagNameType</span>
+                <span class="method-start">7819 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testsubmitPresentsTagNameType</span>
+                <span class="method-start">7830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFormPresentActionValueMethodName</span>
+                <span class="method-start">7860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcustomerNameEmpty</span>
+                <span class="method-start">7886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testmobileNumberWrong</span>
+                <span class="method-start">8016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testmobileNumberWrong1</span>
+                <span class="method-start">8135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFromCity</span>
+                <span class="method-start">8247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToCity</span>
+                <span class="method-start">8312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTravelClass</span>
+                <span class="method-start">8367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNoOfTicketsWrong1</span>
+                <span class="method-start">8423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNoOfTicketsWrong2</span>
+                <span class="method-start">8642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubmitActionForSameFromAndToCity</span>
+                <span class="method-start">9093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubmitActionWithTicketBookingResult</span>
+                <span class="method-start">9522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubmitActionWithTrainNotFound1</span>
+                <span class="method-start">10153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubmitActionWithTrainNotFound2</span>
+                <span class="method-start">10465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">10811 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

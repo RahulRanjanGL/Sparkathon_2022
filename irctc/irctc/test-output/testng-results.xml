@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13252" started-at="2020-12-06T23:55:48 IST" finished-at="2020-12-06T23:56:01 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13252" started-at="2020-12-06T23:55:48 IST" finished-at="2020-12-06T23:56:01 IST">
+      <class name="com.cts.irctc.seleniumtestcases.IrctcFormTests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="beforeTest" is-config="true" duration-ms="7566" started-at="2020-12-06T23:55:48 IST" finished-at="2020-12-06T23:55:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testheadingPresent()[pri:1, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testheadingPresent" duration-ms="80" started-at="2020-12-06T23:55:55 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testheadingPresent -->
+        <test-method status="PASS" signature="testcustomerNamePresentsTagNameType()[pri:2, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testcustomerNamePresentsTagNameType" duration-ms="50" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcustomerNamePresentsTagNameType -->
+        <test-method status="PASS" signature="testmobileNumberPresentsTagNameType()[pri:3, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testmobileNumberPresentsTagNameType" duration-ms="36" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmobileNumberPresentsTagNameType -->
+        <test-method status="PASS" signature="testFromCityPresentsTagNameType()[pri:4, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testFromCityPresentsTagNameType" duration-ms="18" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFromCityPresentsTagNameType -->
+        <test-method status="PASS" signature="testToCityPresentsTagNameType()[pri:5, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testToCityPresentsTagNameType" duration-ms="11" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToCityPresentsTagNameType -->
+        <test-method status="PASS" signature="testTravelClassPresentsTagNameType()[pri:6, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testTravelClassPresentsTagNameType" duration-ms="9" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTravelClassPresentsTagNameType -->
+        <test-method status="PASS" signature="testNoOfTicketsPresentsTagNameType()[pri:7, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testNoOfTicketsPresentsTagNameType" duration-ms="10" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoOfTicketsPresentsTagNameType -->
+        <test-method status="PASS" signature="testsubmitPresentsTagNameType()[pri:8, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testsubmitPresentsTagNameType" duration-ms="28" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsubmitPresentsTagNameType -->
+        <test-method status="PASS" signature="testFormPresentActionValueMethodName()[pri:9, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testFormPresentActionValueMethodName" duration-ms="24" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormPresentActionValueMethodName -->
+        <test-method status="PASS" signature="testcustomerNameEmpty()[pri:10, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testcustomerNameEmpty" duration-ms="128" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcustomerNameEmpty -->
+        <test-method status="PASS" signature="testmobileNumberWrong()[pri:11, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testmobileNumberWrong" duration-ms="118" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmobileNumberWrong -->
+        <test-method status="PASS" signature="testmobileNumberWrong1()[pri:12, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testmobileNumberWrong1" duration-ms="111" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmobileNumberWrong1 -->
+        <test-method status="PASS" signature="testFromCity()[pri:13, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testFromCity" duration-ms="64" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFromCity -->
+        <test-method status="PASS" signature="testToCity()[pri:14, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testToCity" duration-ms="53" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToCity -->
+        <test-method status="PASS" signature="testTravelClass()[pri:15, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testTravelClass" duration-ms="55" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTravelClass -->
+        <test-method status="PASS" signature="testNoOfTicketsWrong1()[pri:16, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testNoOfTicketsWrong1" duration-ms="217" started-at="2020-12-06T23:55:56 IST" finished-at="2020-12-06T23:55:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoOfTicketsWrong1 -->
+        <test-method status="PASS" signature="testNoOfTicketsWrong2()[pri:17, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testNoOfTicketsWrong2" duration-ms="449" started-at="2020-12-06T23:55:57 IST" finished-at="2020-12-06T23:55:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoOfTicketsWrong2 -->
+        <test-method status="PASS" signature="testSubmitActionForSameFromAndToCity()[pri:18, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testSubmitActionForSameFromAndToCity" duration-ms="425" started-at="2020-12-06T23:55:57 IST" finished-at="2020-12-06T23:55:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitActionForSameFromAndToCity -->
+        <test-method status="PASS" signature="testSubmitActionWithTicketBookingResult()[pri:19, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testSubmitActionWithTicketBookingResult" duration-ms="630" started-at="2020-12-06T23:55:57 IST" finished-at="2020-12-06T23:55:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitActionWithTicketBookingResult -->
+        <test-method status="PASS" signature="testSubmitActionWithTrainNotFound1()[pri:20, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testSubmitActionWithTrainNotFound1" duration-ms="310" started-at="2020-12-06T23:55:58 IST" finished-at="2020-12-06T23:55:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitActionWithTrainNotFound1 -->
+        <test-method status="PASS" signature="testSubmitActionWithTrainNotFound2()[pri:21, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="testSubmitActionWithTrainNotFound2" duration-ms="344" started-at="2020-12-06T23:55:58 IST" finished-at="2020-12-06T23:55:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitActionWithTrainNotFound2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.cts.irctc.seleniumtestcases.IrctcFormTests@5bcea91b]" name="afterTest" is-config="true" duration-ms="2433" started-at="2020-12-06T23:55:59 IST" finished-at="2020-12-06T23:56:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.cts.irctc.seleniumtestcases.IrctcFormTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
